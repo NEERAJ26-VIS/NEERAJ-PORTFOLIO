@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+		<!--CSS-->
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head> 
+	
+	<body id="body" data-ng-app="contactApp">
+		
+		<!--Preloader-->
+		<div class="preloader-it">
+			<div class="mdl-spinner mdl-js-spinner is-active is-upgraded" data-upgraded=",MaterialSpinner"><div class="mdl-spinner__layer mdl-spinner__layer-1"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div><div class="mdl-spinner__layer mdl-spinner__layer-2"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div><div class="mdl-spinner__layer mdl-spinner__layer-3"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div><div class="mdl-spinner__layer mdl-spinner__layer-4"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div></div>
+		</div>
+		<!--/Preloader-->
+		
+		<!--Main Wrapper-->
+		<div class="main-wrapper">
+		
+			<!--Bg Image-->
+			<div class="bg-struct bg-img"></div>
+			<!--/Bg Image-->
+			
+			<div class="mdl-js-layout mdl-layout--fixed-header">
+				
+				<!--Top Header-->
+				<header class="mdl-layout__header">
+					<div class="mdl-layout__header-row mdl-scroll-spy-1">
+						<!-- Title -->
+						<a href="index.html"><span class="mdl-layout-title"></span></a>
+						<div class="mdl-layout-spacer"></div>
+						<ul class="nav mdl-navigation mdl-layout--large-screen-only">
+							<li><a class="mdl-navigation__link" data-scroll href="#body">about</a></li>
+							<li><a class="mdl-navigation__link" data-scroll href="#skills_sec">skills</a></li>
+							<li><a class="mdl-navigation__link" data-scroll href="#workshops_attended_sec">workshops attended</a></li>
+							<li><a class="mdl-navigation__link" data-scroll href="#education_sec">education</a></li>
+							<li><a class="mdl-navigation__link" data-scroll href="#project">projects</a></li>
+							<li><a class="mdl-navigation__link" data-scroll href="#hobbies">hobbies</a></li>
+							<li><a class="mdl-navigation__link" data-scroll href="#additional">additional information</a></li>
+							
+						</ul>
+						<!-- Right aligned menu below button -->
+						<button id="demo-menu-lower-right"
+								class="mdl-button mdl-js-button mdl-button--icon ver-more-btn">
+						  <i class="material-icons">more_vert</i>
+						</button>
+
+						<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+							data-mdl-for="demo-menu-lower-right">
+							<li class="mdl-menu__item"><a href="mailto:vneeraj1998@gmail.com"><i class="zmdi zmdi-email-open font-green pr-10"></i>Contact Me</a></li>
+							<li class="mdl-menu__item"><a href="tel:7411490190"><i class="zmdi zmdi-phone  font-blue  pr-10"></i>+917411490190</a></li>
+						</ul>
+					</div>
+				</header>
+				<!--/Top Header-->
+				
+				<!--Left Sidebar-->
+				<div class="mdl-layout__drawer">
+					<div class="nicescroll-bar">
+						<div class="drawer-profile-wrap">
+							<div class="candidate-img-drawer mt-25 mb-20"></div>
+							<span class="candidate-name block mb-10 text-center">Neeraj Kumar Vishwakarma</span>
+							<ul class="social-icons  mb-30">
+								
+								<li>
+									<a class="linkedin-link" href="https://www.linkedin.com/in/neeraj-vishwakarma-6b9005154/">
+										<i id="tt13" class="zmdi zmdi-linkedin"></i>
+										<div class="mdl-tooltip" data-mdl-for="tt13">
+											linkedin
+										</div>
+									</a>
+								</li>
+								<li>
+									<a class="Facebook-link" href="https://www.facebook.com/neeraj.vishwakarma.5268/">
+										<i id="tt14" class="zmdi zmdi-facebook"></i>
+										<div class="mdl-tooltip" data-mdl-for="tt14">
+											Facebook
+										</div>
+									</a>
+								</li>
+								<li>
+									<a class="instagram-link" href="#">
+										<i id="tt15" class="zmdi zmdi-instagram"></i>
+										<div class="mdl-tooltip" data-mdl-for="tt15">
+											instagram
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="mdl-scroll-spy-2">
+							<ul class="mdl-navigation">
+								<li>
+									<a class="mdl-navigation__link border-top-sep" data-scroll href="#body">
+										<i class="zmdi zmdi-border-color pr-15"></i>
+										<span class="font-capitalize">about</span>
+									</a>
+								</li>	
+								<li>
+									<a class="mdl-navigation__link border-top-sep" data-scroll href="#skills_sec">
+										<i class="zmdi zmdi-cutlery pr-15"></i>
+										<span class="font-capitalize">skills</span>
+									</a>
+								</li>
+								
+								<li>
+									<a class="mdl-navigation__link border-top-sep" data-scroll href="#workshops_attended_sec">
+										<i class="zmdi zmdi-shield-check pr-15"></i>
+										<span class="font-capitalize">workshops attended</span>
+									</a>
+								</li>	
+								<li>
+									<a class="mdl-navigation__link border-top-sep" data-scroll href="#education_sec">
+										<i class="zmdi zmdi-library pr-15"></i>
+										<span class="font-capitalize">education</span>
+									</a>
+								</li>	
+								
+								<li>
+									<a class="mdl-navigation__link border-top-sep" data-scroll href="#project">
+										<i class="zmdi zmdi-shield-check pr-15"></i>
+										<span class="font-capitalize">projects</span>
+									</a>
+								</li>
+									
+									
+							
+									
+							</ul>
+						</div>
+						<
+					</div>
+				</div>
+				<!--/Left Sidebar-->
+				
+				<!--Setting-->
+				<div class="mdl-layout__drawer-right settings-drawer">
+					<div class="nicescroll-bar">
+						<span class="mdl-layout-title bg-blue font-white">
+							<span>options</span>
+						</span>
+						<div class="layout-switcher-wrap overflow-hide border-bottom-sep">
+							<ul>
+								<li><span class="layout-title">box layout</span>
+									<span class="layout-switcher">
+										<label   class="mdl-switch mdl-js-switch mdl-js-ripple-effect" data-mdl-for="switch-1">
+										  <input type="checkbox" id="switch-1" class="mdl-switch__input">
+										  <span class="mdl-switch__label"></span>
+										</label>
+									</span>	
+								</li>
+								<li>
+									<span class="layout-title">dark mode</span>
+									<span class="layout-switcher">
+										<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" data-mdl-for="switch-2">
+										  <input type="checkbox" id="switch-2" class="mdl-switch__input">
+										  <span class="mdl-switch__label"></span>
+										</label>
+									</span>	
+								</li>
+								<li>
+									<span class="layout-title">header full width</span>
+									<span class="layout-switcher">
+										<label  class="mdl-switch mdl-js-switch mdl-js-ripple-effect" data-mdl-for="switch-3">
+										  <input type="checkbox" id="switch-3" class="mdl-switch__input">
+										  <span class="mdl-switch__label"></span>
+										</label>
+									</span>	
+								</li>
+							</ul>
+						</div>
+						<div class="hero-switcher-wrap overflow-hide">
+							<span class="hero-switcher-title">Hero background</span>
+							<div class="mb-20">
+								<span class="hero-switcher-cat-title">image bg</span>
+								<ul>
+									<li id="imbg_1"></li>
+									<li id="imbg_2"></li>
+									<li id="imbg_3"></li>
+									<li id="imbg_4"></li>
+								</ul>
+							</div>	
+							<div class="mb-20">
+								<span class="hero-switcher-cat-title">pattern bg</span>
+								<ul>
+									<li id="pattrnbg_1"></li>
+									<li id="pattrnbg_2"></li>
+									<li id="pattrnbg_3"></li>
+									<li id="pattrnbg_4"></li>
+								</ul>
+							</div>
+							<div class="mb-20">
+								<span class="hero-switcher-cat-title">abstract bg</span>
+								<ul>
+									<li id="abstctbg_1"></li>
+									<li id="abstctbg_2"></li>
+									<li id="abstctbg_3"></li>
+									<li id="abstctbg_4"></li>
+								</ul>
+							</div>
+							<div class="mb-20">
+								<span class="hero-switcher-cat-title">color bg</span>
+								<ul>
+									<li id="colorbg_1"></li>
+									<li id="colorbg_2"></li>
+									<li id="colorbg_3"></li>
+									<li id="colorbg_4"></li>
+								</ul>
+							</div>
+							<div class="mt-10 mb-30">
+								<a id="reset" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  font-dark margin-lr-auto" href="#">reset</a>
+							</div>	
+						</div>
+					</div>
+				</div>
+				<!--/Setting-->
+				
+				<!--Main Content-->
+				<div class="main-content relative">
+					<div class="container">
+						
+						<!--About Sec-->
+						<section class="about-sec mt-180 mt-sm-120  mb-30">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="mdl-card mdl-shadow--2dp">
+										<div class="row">
+											<div class="col-md-5 col-xs-12 mb-30">
+												<div class="candidate-img mb-35"></div>
+												<ul class="social-icons">
+													
+													
+													<li>
+														<a class="linkedin-link" href="https://www.linkedin.com/in/neeraj-vishwakarma-6b9005154/">
+															<i id="tt3" class="zmdi zmdi-linkedin"></i>
+															<div class="mdl-tooltip" data-mdl-for="tt3">
+																linkedin
+															</div>
+														</a>
+													</li>
+													<li>
+														<a class="Facebook-link" href="#">
+															<i id="tt4" class="zmdi zmdi-facebook"></i>
+															<div class="mdl-tooltip" data-mdl-for="tt4">
+																Facebook
+															</div>
+														</a>
+													</li>
+													<li>
+														<a class="instagram-link" href="#">
+															<i id="tt5" class="zmdi zmdi-instagram"></i>
+															<div class="mdl-tooltip" data-mdl-for="tt5">
+																instagram
+															</div>
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="col-md-7 col-xs-12">
+												<div class="info-wrap">
+													<h1>Neeraj Kumar Vishwakarma</h1>
+													<h5 class="mt-20 font-grey">Tech Enthusiast</h5>
+													<div class="mt-30">
+														<a id="download_cv" target=_blank download="resume5.pdf" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  bg-green font-white mr-10" href="resume5.pdf">download cv</a>
+														
+													</div>
+												</div>
+												<ul class="profile-wrap mt-50">
+													<li>
+														<div class="profile-title">age</div>
+														<div class="profile-desc">22</div>
+													</li>
+													<li>
+														<div class="profile-title">address</div>
+														<div class="profile-desc">NH-3/C-419,Rihandnagar,sonebhadra
+															
+														</div>
+													</li>
+													<li>
+														<div class="profile-title">email</div>
+														<div class="profile-desc">
+															vneeraj1998@gmail.com
+														</div>
+													</li>
+													<li>
+														<div class="profile-title">phone</div>
+														<div class="profile-desc">
+															7411490190
+														</div>
+													</li>
+													
+														
+										
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>	
+							</div>
+						</section>
+						<!--/About Sec-->		
+						
+						<!--Skills Sec-->
+						<section id="skills_sec" class="skills-sec sec-pad-top-sm">
+							<div class="row">
+								<div class="col-sm-6 mb-30">
+									<h2 class="mb-30"style="color:red">Programming</h2>
+									<div class="mdl-card mdl-shadow--2dp">
+										
+										<div class="mb-30">
+											<span class="progress-cat">Python</span>
+											<div class="progress-bar-graph"> 
+												<div class="progress-bar-wrap">
+													<div class="bar-wrap blue-bar">
+														<span data-width="80"></span>
+													</div>
+												</div>	
+											</div>
+										</div>
+										<div class="mb-30">
+											<span class="progress-cat">C</span>
+											<div class="progress-bar-graph"> 
+												<div class="progress-bar-wrap">
+													<div class="bar-wrap blue-bar">
+														<span data-width="60"></span>
+													</div>
+												</div>	
+											</div>
+										</div>	
+										<div class="mb-30">
+											<span class="progress-cat">C++</span>
+											<div class="progress-bar-graph"> 
+												<div class="progress-bar-wrap">
+													<div class="bar-wrap blue-bar">
+														<span data-width="50"></span>
+													</div>
+												</div>	
+											</div>
+										</div>
+										
+										
+										
+									</div>
+									
+								</div>
+								
+									
+								<div class="col-sm-6 mb-30">
+									<h2 class="mb-30"style="color:red">Web Development</h2>
+										<div class="mdl-card mdl-shadow--2dp">
+										<div class="mb-30">
+											<span class="progress-cat">HTML</span>
+											<div class="progress-bar-graph"> 
+												<div class="progress-bar-wrap">
+													<div class="bar-wrap blue-bar">
+														<span data-width="80"></span>
+													</div>
+												</div>	
+											</div>
+										</div>	
+										<div class="mb-30">
+											<span class="progress-cat">CSS</span>
+											<div class="progress-bar-graph"> 
+												<div class="progress-bar-wrap">
+													<div class="bar-wrap blue-bar">
+														<span data-width="75"></span>
+													</div>
+												</div>	
+											</div>
+										</div>
+										
+									</div>
+									
+								</div>
+
+								
+							</div>
+							<div class="row">
+								<div class="col-sm-6 mb-30">
+									<h2 class="mb-30"style="color:red">Databases</h2>
+									<div class="mdl-card mdl-shadow--2dp">
+										<div class="mb-30">
+											<span class="progress-cat">SQL</span>
+											<div class="progress-bar-graph"> 
+												<div class="progress-bar-wrap">
+													<div class="bar-wrap blue-bar">
+														<span data-width="75"></span>
+													</div>
+												</div>	
+											</div>
+										</div>		
+									</div>
+									
+										<div class="col-sm-6 mb-30">
+											<h2 class="mb-30"style="color:red">Frameworks</h2>
+											<div class="mdl-card mdl-shadow--2dp">
+												<div class="mb-30">
+													<span class="progress-cat">Django</span>
+													<div class="progress-bar-graph"> 
+														<div class="progress-bar-wrap">
+															<div class="bar-wrap blue-bar">
+																<span data-width="75"></span>
+															</div>
+														</div>	
+													</div>
+												</div>		
+											</div>
+										</div>
+									</div>
+								
+							    <div class="col-sm-6 mb-30">
+										<h2 class="mb-30"style="color:red">Tools</h2>
+											<div class="mdl-card mdl-shadow--2dp">
+											<div class="mb-30">
+												<span class="progress-cat">MATLAB</span>
+												<div class="progress-bar-graph"> 
+													<div class="progress-bar-wrap">
+														<div class="bar-wrap blue-bar">
+															<span data-width="60"></span>
+														</div>
+													</div>	
+												</div>
+											</div>	
+											<div class="mb-30">
+												<span class="progress-cat">CODESYS</span>
+												<div class="progress-bar-graph"> 
+													<div class="progress-bar-wrap">
+														<div class="bar-wrap blue-bar">
+															<span data-width="70"></span>
+														</div>
+													</div>	
+												</div>
+											</div>
+											<div class="mb-30">
+												<span class="progress-cat">Proteous Soft</span>
+												<div class="progress-bar-graph"> 
+													<div class="progress-bar-wrap">
+														<div class="bar-wrap blue-bar">
+															<span data-width="80"></span>
+														</div>
+													</div>	
+												</div>
+											</div>
+											
+										</div>
+										
+								</div>
+							</div>
+			<div class="row">
+				<div class="col-sm-6 mb-30">
+					<h2 class="mb-30"style="color:red">Soft Skills</h2>
+					<div class="mdl-card mdl-shadow--2dp">
+						<div class="mb-30">
+							<span class="progress-cat">Communication</span>
+							<div class="progress-bar-graph"> 
+								<div class="progress-bar-wrap">
+									<div class="bar-wrap blue-bar">
+										<span data-width="80"></span>
+									</div>
+								</div>	
+							</div>
+						</div>	
+						<div class="mb-30">
+							<span class="progress-cat">Presentation</span>
+							<div class="progress-bar-graph"> 
+								<div class="progress-bar-wrap">
+									<div class="bar-wrap blue-bar">
+										<span data-width="80"></span>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="mb-30">
+							<span class="progress-cat">Leadership Qualities</span>
+							<div class="progress-bar-graph"> 
+								<div class="progress-bar-wrap">
+									<div class="bar-wrap blue-bar">
+										<span data-width="70"></span>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="mb-30">
+							<span class="progress-cat">Stratergic Planning</span>
+							<div class="progress-bar-graph"> 
+								<div class="progress-bar-wrap">
+									<div class="bar-wrap blue-bar">
+										<span data-width="60"></span>
+									</div>
+								</div>	
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>
+				
+								
+						</section>
+						<!--/Skills Sec-->
+						
+						<!--Profile Sec-->
+						<section id="profile_sec" class="profile-sec sec-pad-top-sm">
+							<h2 class="mb-30"style="color:red">what I Know</h2>
+							<div class="row">
+								<div class="col-md-3 col-sm-6 col-xs-12 mb-30">
+									<div class="mdl-card mdl-shadow--2dp">
+										<i class="zmdi zmdi-format-color-fill font-blue profile-icon"></i>
+										<h4 class="mb-15">Software Testing</h4>
+										<p>worked as intern @iEllipse technologies and learnt about the software teasting</p>
+										
+									</div>
+								</div>
+								
+								<div class="col-md-3 col-sm-6 col-xs-12 mb-30">
+									<div class="mdl-card mdl-shadow--2dp">
+										<i class="zmdi zmdi-format-color-text font-green profile-icon"></i>
+										<h4 class="mb-15">App Development</h4>										
+										<p>A beginner in App development. Have good basics of it.</p>
+									</div>
+								</div>
+							
+							</div>
+						</section>
+						
+						<!--workshops attended Sec-->
+						<section id="workshops_attended_sec" class="workshops attended-sec sec-pad-top-sm">
+							<h2 class="mb-30"style="color:red">workshops attended</h2>
+							<div class="timeline-wrap  overflow-hide mb-30">
+								<ul class="timeline">
+									<li>
+										<div class="timeline-badge">
+											<i class="zmdi zmdi-case font-blue"></i>
+										</div>
+										<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-blue">
+											<div class="timeline-heading">
+												<h4 class="mb-10">Mathlab and Simulink </h4>
+												 <span class="duration mb-5">14th oct 2017- 3rd 11th nov 2017</span> 
+												<span class="institution">NITTE MEENAKSHI INSTITUTE OF TECHNOLOGY, BANGALORE</span>
+											</div>
+											<div class="timeline-body">
+												<p class="mt-25">Learned working and application of matlab and designed circuits </p>
+											</div>
+										</div>
+									</li>
+									
+									<li class="timeline-inverted">
+										<div class="timeline-badge">
+											<i class="zmdi zmdi-format-color-text font-green"></i>
+										</div>
+										<div class="timeline-panel mdl-card mdl-shadow--2dp  pt-30 pb-30 border-top-green">
+											<div class="timeline-heading">
+												<h4 class="mb-10">Emerging Trends In PLC,SCADA and Industrial Automation</h4>
+												<span class="duration mb-5">27th september 2018 – 29st september 2018</span>
+												<span class="institution">NITTE MEENAKSHI INSTITUTE OF TECHNOLOGY, BANGALORE</span>
+											</div>
+											<div class="timeline-body">
+												<p class="mt-25">I learned basics related to PLC programming and done mini Projects</p>
+											</div>
+										</div>
+									</li>
+
+									
+									
+									<li class="clearfix no-float"></li>
+								</ul>
+							</div>
+						</section>
+						<!--/workshops attended Sec-->
+						
+						<!--Education Sec-->
+						<section id="education_sec" class="education-sec sec-pad-top-sm">
+							<h2 class="mb-30"style="color:red">education</h2>
+							<div class="timeline-wrap overflow-hide mb-30">
+								<ul class="timeline">
+									<li>
+										<div class="timeline-badge bg-blue no-icon"></div>
+										<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-blue">
+											<div class="timeline-heading">
+												<h4 class="mb-10">Bachelor of Engineering</h4>
+												<span class="duration mb-5">2016-2020</span>
+												<span class="institution">Nitte Meenakshi Institute of technology , Bangalore</span>
+											</div>
+										</div>
+									</li>
+									
+									<li class="timeline-inverted">
+										<div class="timeline-badge bg-green no-icon"></div>
+										<div class="timeline-panel mdl-card mdl-shadow--2dp  pt-30 pb-30 border-top-green">
+											<div class="timeline-heading">
+												<h4 class="mb-10">12th Standard</h4>
+												<span class="duration mb-5">2015-2016</span>
+												<span class="institution">Delhi public school vindhyanagar(12th Score: 73.34%)</span>
+											</div>
+										</div>
+									</li>
+									
+									<li>
+										<div class="timeline-badge bg-blue no-icon"></div>
+										<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-blue">
+											<div class="timeline-heading">
+												<h4 class="mb-10">10th Standard</h4>
+												<span class="duration mb-5">2013-2014</span>
+												<span class="institution">Delhi Public School vindhyanagar(10th Score: 81.06%)</span>
+											</div>
+										</div>
+									</li>
+									<li class="clearfix no-float"></li>
+								</ul>
+							</div>
+						</section>
+						
+						<!--project-->
+						<section id="project" class="project sec-pad-top-sm">
+							<h2 class="mb-30" style="color:red">Projects</h2>
+							<div class="timeline-wrap overflow-hide mb-30">
+								<ul class="timeline">
+									<li>
+										<div class="timeline-badge bg-blue no-icon"></div>
+										<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-blue">
+											<div class="timeline-heading">
+												<h4 class="mb-10"> Designed Notch Filter(simulation) | OP-amp Mini Project </h4>
+												
+												<span class="institution">This project is a operational amplifier simultion mini project. It aims to reject a particular frequency set on the op amp module .in real-life application a frequency with noise is removed from the tranmission signal  </span>
+											</div>
+										</div>
+									</li>
+									
+									<li class="timeline-inverted">
+										<div class="timeline-badge bg-green no-icon"></div>
+										<div class="timeline-panel mdl-card mdl-shadow--2dp  pt-30 pb-30 border-top-green">
+											<div class="timeline-heading">
+												<h4 class="mb-10">Star To Delta Transformer | MATLAB Mini Project </h4>
+									
+												<span class="institution">This project is a MATLAB based mini-project. a simple working explanation of star delta transformer with output graph of voltage and current for given input value of voltage and current </span>
+											</div>
+										</div>
+									</li>
+									
+									<li>
+										<div class="timeline-badge bg-blue no-icon"></div>
+										<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-blue">
+											<div class="timeline-heading">
+												<h4 class="mb-10">Automated Loading And Unloading Of Goods For Industry | PLC Mini Project</h4>
+												
+												<span class="institution">The aim of the project was describing the working of belt drive and choosing chamber for storage of good and reverting back the good from chamber .a virtual simulation of whole process was designed and planned .a proximity sensor was assigned to detect the good and operate the belt drive</span>
+											</div>
+										</div>
+									</li>
+									<li class="timeline-inverted">
+										<div class="timeline-badge bg-green no-icon"></div>
+										<div class="timeline-panel mdl-card mdl-shadow--2dp  pt-30 pb-30 border-top-green">
+											<div class="timeline-heading">
+												<h4 class="mb-10">ESP32 embedded system-based vehicle automation over internet| Major  Project</h4>
+									
+												<span class="institution">project was all about providing security to vehicle from theif and damage by means of installing sensor and tacking backup on cloud storage .a third umpire view is predicted on vehicle by keeping a track record of vehicle over cloud and accessed by right  authority.apart from mentioned, emergency sensor were installed in the model.
+</span>
+											</div>
+										</div>
+									</li>
+									<li class="clearfix no-float"></li>
+								</ul>
+							</div>
+						</section>
+						<!--/projectSec-->
+						
+					<!--HOBBIES-->
+					<section id="hobbies" class="project sec-pad-top-sm">
+						<h2 class="mb-30" style="color:red">Hobbies</h2>
+						<div class="timeline-wrap overflow-hide mb-30">
+							<ul class="timeline">
+								<li>
+									<div class="timeline-badge bg-blue no-icon"></div>
+									<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-blue">
+										<div class="timeline-heading">
+											<h4 class="mb-10"> puzzle solving() </h4>
+											
+											</div>
+									</div>
+								</li>
+								
+								<li class="timeline-inverted">
+									<div class="timeline-badge bg-green no-icon"></div>
+									<div class="timeline-panel mdl-card mdl-shadow--2dp  pt-30 pb-30 border-top-green">
+										<div class="timeline-heading">
+											<h4 class="mb-10">Reading Novel(based on self development )</h4>
+								
+											
+										</div>
+									</div>
+								</li>
+								
+								<li>
+									<div class="timeline-badge bg-blue no-icon"></div>
+									<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-blue">
+										<div class="timeline-heading">
+											<h4 class="mb-10">Travelling(road trip and solo trip)</h4>
+											
+										</div>
+									</div>
+								</li>
+								
+								<li class="clearfix no-float"></li>
+							</ul>
+						</div>
+					</section>
+					<!--/HOBBIES-->	
+						
+					<!--additoional information-->
+					<section id="additional" class="project sec-pad-top-sm">
+						<h2 class="mb-30" style="color:red">Additional Information</h2>
+						<div class="timeline-wrap overflow-hide mb-30">
+							<ul class="container">
+								<li>
+									<div class="timeline-badge bg-blue no-icon"></div>
+									<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-blue">
+										<div class="timeline-heading">
+											<h4 class="mb-10"> 
+												<li>• Date of Birth: 26 Sept.1998</li>
+												<li>• Gender: Male</li>
+												<li>• Marital Status: Single</li>
+												<li>• Known Languages: Hindi and English</li> </h4>
+											
+											</div>
+									</div>
+								</li>
+								
+								
+								
+								<li class="clearfix no-float"></li>
+							</ul>
+						</div>
+					</section>
+					<!--/additionnal information-->		
+						
+						
+						<!--Footer Sec-->
+						<footer class="footer-sec sec-pad-top-sm sec-pad-bottom text-center">
+							
+						<!--Footer Sec-->
+					</div>
+				</div>	
+				<!--/Main Content-->
+				
+				<!--Setting Trigger-->
+				<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-shadow--8dp bg-red setting-btn">
+				  <i class="zmdi zmdi-settings"></i>
+				</button>
+				<!--/Setting Trigger-->
+				
+			</div>	
+		</div>	
+		<!--/Main Wrapper-->
+		
+		<!-- Scripts -->
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/angular.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/material.min.js"></script>
+		<script src="js/jQuery.appear.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/controllers.js"></script>
+		<script src="js/smooth-scroll.js"></script>
+		<script src="js/isotope.js"></script>
+		<script src="js/lightgallery-all.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/froogaloop2.min.js"></script>
+		<script src="js/jquery.slimscroll.js"></script>
+		
+		<script src="js/init.js"></script>
+	</body>
+
+
+</html>
